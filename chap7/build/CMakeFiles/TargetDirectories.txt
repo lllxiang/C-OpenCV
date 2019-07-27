@@ -1,0 +1,7 @@
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/install.dir
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/list_install_components.dir
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/rebuild_cache.dir
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/chap7.dir
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/edit_cache.dir
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/install/strip.dir
+/home/lx/kdevelopProjects/OpenCV-CPP/chap7/build/CMakeFiles/install/local.dir
