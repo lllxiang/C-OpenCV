@@ -1,5 +1,6 @@
 #include <opencv2/opencv.hpp>
 #include <stdio.h>
+#include<iostream>
 /*
  * remap() map_x and map_y是两个同输入输出图片相同shape的mat
  * map_x = [0,1,2,3,4,...]
@@ -23,7 +24,6 @@ int main(){
   }  
   cv::imshow("src",srcImage);
   dstImage.create( srcImage.size(), srcImage.type());
-  
   map_x.create( srcImage.size(), CV_32FC1 );
   map_y.create( srcImage.size(), CV_32FC1 );
   for( int j = 0; j < srcImage.rows;j++) //hang 
@@ -34,6 +34,11 @@ int main(){
       map_y.at<float>(j,i) = static_cast<float>(srcImage.rows - j);
     }
   }
+  cv::Mat roi_mapx  = map_x(cv::Rect(0,0,5,5));
+  cv::Mat roi_mapy = map_y(cv::Rect(0,0,5,5));
+  std::cout<<roi_mapx<<std::endl;
+  std::cout<<roi_mapy<<std::endl;
+
   cv::remap( srcImage, dstImage, map_x, map_y, cv::INTER_LINEAR, 
 	     cv::BORDER_CONSTANT, cv::Scalar(0,0, 0) );
   cv::imshow( "dst", dstImage);

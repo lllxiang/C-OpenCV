@@ -1222,7 +1222,7 @@ opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /home/lx/anaconda3/include/opencv4/opencv2/videostab/opencv2/videostab/log.hpp
 
-/home/lx/kdevelopProjects/OpenCV-CPP/chap7/src/main.cpp
+/home/lx/kdevelopProjects/dist_fish_eye/src/main.cpp
 opencv2/opencv.hpp
 -
 stdio.h

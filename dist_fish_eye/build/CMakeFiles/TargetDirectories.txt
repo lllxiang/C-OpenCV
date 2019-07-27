@@ -1,0 +1,3 @@
+/home/lx/kdevelopProjects/dist_fish_eye/build/CMakeFiles/edit_cache.dir
+/home/lx/kdevelopProjects/dist_fish_eye/build/CMakeFiles/rebuild_cache.dir
+/home/lx/kdevelopProjects/dist_fish_eye/build/CMakeFiles/dist_fish_eye.dir
